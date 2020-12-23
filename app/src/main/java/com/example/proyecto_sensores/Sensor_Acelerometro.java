@@ -82,7 +82,7 @@ public class Sensor_Acelerometro extends AppCompatActivity implements SensorEven
             img6.setVisibility(View.INVISIBLE);
 
         } else if (y>5) {
-            getWindow().getDecorView().setBackgroundColor(Color.CYAN);
+            getWindow().getDecorView().setBackgroundColor(Color.rgb(	255,165,0));
             img1.setVisibility(View.VISIBLE);
             img2.setVisibility(View.INVISIBLE);
             img3.setVisibility(View.INVISIBLE);
@@ -101,7 +101,7 @@ public class Sensor_Acelerometro extends AppCompatActivity implements SensorEven
             img5.setVisibility(View.INVISIBLE);
 
         } else if (z>5) {
-            getWindow().getDecorView().setBackgroundColor(Color.LTGRAY);
+            getWindow().getDecorView().setBackgroundColor(Color.GREEN);
             img5.setVisibility(View.VISIBLE);
             img1.setVisibility(View.INVISIBLE);
             img2.setVisibility(View.INVISIBLE);
