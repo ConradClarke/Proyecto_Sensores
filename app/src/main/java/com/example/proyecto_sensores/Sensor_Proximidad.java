@@ -31,11 +31,11 @@ public class Sensor_Proximidad extends AppCompatActivity implements SensorEventL
         proxText.setText(proxText1);
         float valor = Float.parseFloat(proxText1);
         if (valor==0){
-            proxText.setBackgroundColor(Color.BLUE);
+            proxText.setBackgroundColor(Color.CYAN);
         }
         else
         {
-            proxText.setBackgroundColor(Color.YELLOW);
+            proxText.setBackgroundColor(Color.GRAY);
         }
     }
 
